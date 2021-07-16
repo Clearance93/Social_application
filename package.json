@@ -1,0 +1,22 @@
+{
+  "name": "online-portial-chat",
+  "version": "1.0.0",
+  "description": "Online chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Clance Morumudi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
